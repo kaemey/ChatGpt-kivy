@@ -1,0 +1,35 @@
+<MainLayout>:
+    canvas:
+        Color:
+            rgba: (1,1,1,1)
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+<chooseGPTWidget>:
+    canvas:
+        Color:
+            rgba: (1,1,1,1)
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+ScrollView:
+    do_scroll_x: False
+    do_scroll_y: True
+    Label:
+        size_hint_y: None
+        height: self.texture_size[1]
+        text_size: self.width, None
+
+<Answer>:
+    minimum_height: 40
+    size_hint_y: None
+    text_size: 550, None
+    halign: "left" 
+
+<Question>:
+    minimum_height: 40
+    size_hint_y: None
+    text_size: 550, None
+    halign: "left" 
