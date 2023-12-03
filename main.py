@@ -12,7 +12,6 @@ from kivy.uix.button import Button
 from kivy.lang import Builder
 
 import pyperclip
-import asyncio
 import g4f
 
 g4f.check_version = False  # Disable automatic version checking
