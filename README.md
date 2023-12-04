@@ -1,6 +1,8 @@
 # ChatGpt-kivy
 <h2>Приложение для ПК для общения с Chat GPT на kivy</h2>
-<h2>Установка:</h2>
+<h2>Релиз:</h2>
+<h3>Для самостоятельного использования можете скачать релиз: <a href="https://github.com/kaemey/ChatGpt-kivy/releases/download/v1.0.0/ChatGPT.exe">ChatGPT.exe</a></h3>
+<h2>Разработка:</h2>
 <h3>Установите библиотеку kivy:</h3>
 <pre>pip install "kivy[full]"</pre>
 <h3>Установите библиотеку gpt4free:</h3>
